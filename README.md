@@ -49,7 +49,14 @@
 
 ---
 
-## 🛠️ Getting Started
+## 🛠️ Getting Started step 1: Download models from drive
+[![download models here](https://drive.google.com/file/d/1XrGslOWCTyxgIJqBhiljkXYvXQRV0roL/view?usp=drive_link)  
+🔗 **Model download**
+```bash
+# place in root directory of flask app
+````
+
+## 🛠️ Getting Started step 2: install files
 
 ```bash
 # Clone the repo
