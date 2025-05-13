@@ -19,7 +19,7 @@ A lightweight Flask application that leverages Azure Custom Vision and an AI cha
 * 🔗 **Custom Vision Link**
   One-click entry to the shared Azure Custom Vision resource.
 * 💾 **No-Code ML**
-  Also trained images training, tagging, and inference happen in Azure’s portal or on a shared source-code pad.
+  Also trained images training in Azure’s portal incase users wants a lowcode training ground.
 
 ## 🎯 Uniqueness
 
