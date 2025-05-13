@@ -1,4 +1,5 @@
 
+---
 
 ````markdown
 # 🫁 Breath Safe
@@ -75,3 +76,13 @@ Visit `http://localhost:5000` in your browser to explore.
 
 © 2025 Breath Safe Initiative
 
+```
+
+---
+
+Let me know if you'd like to:
+
+- Add Azure Custom Vision usage instructions (like how to request access).
+- Show model accuracy, AUC scores, or confusion matrices.
+- Link to downloadable `.keras` models or ONNX exports.
+```
