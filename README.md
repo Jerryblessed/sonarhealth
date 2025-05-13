@@ -50,10 +50,10 @@
 ---
 
 ## 🛠️ Getting Started step 1: Download models from drive
-[download models here](https://drive.google.com/file/d/1XrGslOWCTyxgIJqBhiljkXYvXQRV0roL/view?usp=drive_link)
+[download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
 🔗 **Model download**
 ```bash
-# place in root directory of flask app
+# place both models in root directory of flask app
 ````
 
 ## 🛠️ Getting Started step 2: install files
