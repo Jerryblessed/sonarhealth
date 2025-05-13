@@ -3,6 +3,8 @@
 [Presentation](https://docs.google.com/presentation/d/1r_a98Et5a3CCOZtHDk0O5rNGh_tOkeDCvzrJvdH8OQA/edit?usp=sharing)
 🔗 **View the project pitch deck**
 
+![BreathSafe Architecture Diagram](https://github.com/Jerryblessed/breathsafe/blob/main/static/AI%20Lung%20Cancer%20Diagnosis%20Flowchart.png?raw=true)
+
 ![Breath Safe Landing Page](https://github.com/Jerryblessed/breathsafe/blob/main/static/landingpage.png?raw=true)
 
 **Breath Safe** is a lightweight Flask application that democratizes AI-powered lung cancer diagnosis using both deep learning and no-code tools. Built for low-resource settings, the platform enables non-technical health workers to upload CT or histopathology images via a simple web UI for instant predictions and guidance.
