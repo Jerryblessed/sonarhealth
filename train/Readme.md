@@ -6,15 +6,17 @@ You can train your own image classification models using **Google Colab** or you
 
 1. **Upload training scripts** (e.g., `ct_train.py` or `histo_train.py`) to Colab.
 
-2. **Run the files individually**  
-   - Each script will automatically download the required dataset from **Kaggle** and train a model.  
-   - Models will be saved in `.keras` format.
+2. **Run the files individually**
+
+   * Each script will automatically download the required dataset from **Kaggle** and train a model.
+   * Models will be saved in `.keras` format.
 
    Example:
+
    ```bash
    !python ct_train.py
    !python histo_train.py
-````
+   ```
 
 3. **Get the trained models**
 
@@ -45,6 +47,5 @@ All model training, evaluation, and predictions can be managed via **Azure’s p
 ---
 
 ```
-
 Let me know if you'd like to include screenshots, links to the Colab notebooks, or badges (e.g., `Open in Colab`).
 ```
