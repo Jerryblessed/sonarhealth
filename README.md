@@ -49,14 +49,7 @@
 
 ---
 
-## 🛠️ Getting Started step 1: Download models from drive
-[download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
-🔗 **Download both CT Scan and Histopathology Models**
-```bash
-# place both models in root directory of flask app.
-````
-
-## 🛠️ Getting Started step 2: install files
+## 🛠️ Getting Started step 1: download and install files 
 
 ```bash
 # Clone the repo
@@ -69,7 +62,18 @@ source venv/bin/activate
 
 # Install dependencies
 pip install flask requests azure-ai-vision openai
+````
 
+## 🛠️ Getting Started step 2: Download models from drive
+[download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
+🔗 **Download both CT Scan and Histopathology Models**
+```bash
+# place both models in root directory of flask app.py.
+````
+
+## 🛠️ Getting Started step 3: run flask file 
+
+```bash
 # Run the app
 python app.py
 ````
