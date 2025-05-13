@@ -46,6 +46,3 @@ All model training, evaluation, and predictions can be managed via **Azure’s p
 
 ---
 
-```
-Let me know if you'd like to include screenshots, links to the Colab notebooks, or badges (e.g., `Open in Colab`).
-```
