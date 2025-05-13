@@ -1,6 +1,3 @@
-Here’s your revised section formatted in Markdown, ready to paste into your `README.md` file on GitHub:
-
-````markdown
 ## 🚀 Train Your Own Model from Scratch
 
 You can train your own image classification models using **Google Colab** or your **local machine**.
