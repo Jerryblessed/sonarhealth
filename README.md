@@ -1,4 +1,3 @@
-
 # 🫁 Breath Safe
 
 [Presentation](https://docs.google.com/presentation/d/1r_a98Et5a3CCOZtHDk0O5rNGh_tOkeDCvzrJvdH8OQA/edit?usp=sharing)
@@ -13,30 +12,39 @@
 ## 🚀 Features
 
 * 🖼️ **Dual Image Upload**
-  - Supports both CT and histopathology images.
-  - Upload via drag-and-drop interface on the web app.
+
+  * Supports both CT and histopathology images.
+  * Upload via drag-and-drop interface on the web app.
 * 🧠 **High-Fidelity Deep Learning**
-  - Backend runs a DenseNet121 model trained on **16,000+ images** for accurate, offline-ready inference.
+
+  * Backend runs a DenseNet121 model trained on **16,000+ images** for accurate, offline-ready inference.
 * 💡 **No-Code Azure Option**
-  - For clinics with limited technical capacity, 800 pre-labeled lung images were trained on **Azure Custom Vision** for an easy plug-and-play interface.
+
+  * For clinics with limited technical capacity, 800 pre-labeled lung images were trained on **Azure Custom Vision** for an easy plug-and-play interface.
 * 🤖 **AI Chatbot Assistant**
-  - Integrated with Azure OpenAI to explain results, answer lung-health questions, and guide users through uploads.
+
+  * Integrated with Azure OpenAI to explain results, answer lung-health questions, and guide users through uploads.
 * 🔐 **Secure Viewer Access**
-  - Azure Custom Vision access managed via viewer lists—no exposed secrets.
+
+  * Azure Custom Vision access managed via viewer lists—no exposed secrets.
 
 ---
 
 ## 🎯 Uniqueness
 
 1. **Dual Training Paths**
-   - A powerful deep learning model (DenseNet121) trained locally on 16K lung images.
-   - A parallel no-code model trained on 800 curated samples using Azure Custom Vision for accessible cloud-based use.
+
+   * A powerful deep learning model (DenseNet121) trained locally on 16K lung images.
+   * A parallel no-code model trained on 800 curated samples using Azure Custom Vision for accessible cloud-based use.
 2. **Two Modalities, One Platform**
-   - Handles both CT scans and histopathology slides with equal ease.
+
+   * Handles both CT scans and histopathology slides with equal ease.
 3. **Offline-Ready Architecture**
-   - Local model designed for containerized inference in remote clinics.
+
+   * Local model designed for containerized inference in remote clinics.
 4. **Embedded AI Agent**
-   - Helps interpret model outputs and provides clinical context in plain English.
+
+   * Helps interpret model outputs and provides clinical context in plain English.
 
 ---
 
@@ -49,7 +57,9 @@
 
 ---
 
-## 🛠️ Getting Started step 1: download and install files 
+## 🛠️ Getting Started
+
+### Step 1: Download and install files
 
 ```bash
 # Clone the repo
@@ -61,41 +71,42 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt﻿
-````
+pip install -r requirements.txt
+```
 
-## 🛠️ Getting Started step 2: Download models from drive
-[download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
+### Step 2: Download models from Google Drive
+
+[Download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
 🔗 **Download both CT Scan and Histopathology Models**
-```bash
-# place both models in root directory of flask app.py.
-````
 
-## 🛠️ Getting Started step 3: run flask file 
+```bash
+# Place both models in the root directory of the Flask app (same level as app.py)
+```
+
+### Step 3: Run the Flask app
 
 ```bash
 # Run the app
 python app.py
-````
+```
 
-```markdown
+---
+
 ## 📁 Project Structure
 
 Make sure your folder looks like this:
 
 ```
-
-📁 project-root/
+📁 breathsafe/
 │
 ├── app.py                          # Flask main application
-├── ctscan\_densenet121.keras       # Trained CT scan model
-├── histo\_densenet121\_model.keras  # Trained histopathology model
+├── ctscan_densenet121.keras       # Trained CT scan model
+├── histo_densenet121_model.keras  # Trained histopathology model
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
-├── 📁 static/                      # Static files (e.g., images, CSS)
-├── 📁 templates/                  # HTML templates for Flask
-└── 📁 train/                      # Model training scripts
-
+├── static/                        # Static files (e.g., images, CSS)
+├── templates/                     # HTML templates for Flask
+└── train/                         # Model training scripts
 ```
 
 Visit `http://localhost:5000` in your browser to explore.
@@ -104,12 +115,9 @@ Visit `http://localhost:5000` in your browser to explore.
 
 ## ✅ Training Models for Breath Safe
 
-[🧠 models training](https://github.com/Jerryblessed/breathsafe/tree/main/train)  
-🧩 **To learn how to train your own model for this project**
+[🧠 Model Training Guide](https://github.com/Jerryblessed/breathsafe/tree/main/train)
+🧩 **Learn how to train your own model for this project**
 
 ---
 
 © 2025 Breath Safe Initiative
-```
-
-
