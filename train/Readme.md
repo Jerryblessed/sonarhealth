@@ -2,6 +2,8 @@
 
 You can train your own image classification models using **Google Colab** or your **local machine**.
 
+![Training Process](https://github.com/Jerryblessed/breathsafe/blob/main/static/train.png?raw=true)
+
 ### 📌 On Google Colab
 
 1. **Upload training scripts** (e.g., `ct_train.py` or `histo_train.py`) to Colab.
