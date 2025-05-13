@@ -22,13 +22,13 @@ A lightweight Flask application that leverages Azure Custom Vision and an AI cha
 ## 🎯 Uniqueness
 
 1. **Dual-modality support**
-   Handles both high-resolution histopathology (16 K images) and CT scans (16 K images) using DenseNet121 backbones for high-detail feature extraction.
+   Handles both high-resolution histopathology (15 K trained images) and CT scans (~1K trained images) using DenseNet121 backbones for high-detail feature extraction.
 2. **Embedded AI agent**
    An interactive chatbot guides uploads, interprets model outputs, and educates non-specialists in real time.
 3. **Role-based access**
    “Viewer list” replaces hard-coded keys, enabling secure, auditable custom vision permissions.
-4. **Dedicated source-code pad**
-   All application logic and model definitions live in a shared pad for transparency, collaboration, and reproducibility.
+4. **Azure custome vision**
+   Users can use our trained model on custom vision to analyze lung image(~800 trained images) after they email for access.
 
 ## 🌍 Social Good
 
