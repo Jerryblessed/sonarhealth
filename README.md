@@ -77,7 +77,7 @@ pip install -r requirements.txt﻿
 # Run the app
 python app.py
 ````
-## ✅ Training models from breath safe.
+## ✅ Training models for breath safe.
 [models training](https://github.com/Jerryblessed/breathsafe/tree/main/train)
 🧩**To learn how to train one's own model for this project**
 
