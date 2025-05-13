@@ -61,7 +61,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install flask requests azure-ai-vision openai
+pip install -r requirements.txt﻿
 ````
 
 ## 🛠️ Getting Started step 2: Download models from drive
