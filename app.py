@@ -24,9 +24,9 @@ client = AzureOpenAI(
 
 # Load models
 t_ct = load_model('ctscan_densenet121.keras')
-t_hist = load_model('inceptionv3_model.keras')
+t_hist = load_model('histo_densenet121_model.keras')
 
-CT_CLASSES = ['Benign','Adenocarcinoma','Squamous Cell Carcinoma']
+CT_CLASSES = ['Squamous Cell Carcinoma','large.cell.carcinoma', 'Benign', 'Adenocarcinoma', 'MalignantCases', 'normal']
 HIST_CLASSES = ['Adenocarcinoma','Benign','Squamous Cell Carcinoma']
 
 def preprocess(path):
