@@ -51,9 +51,9 @@
 
 ## 🛠️ Getting Started step 1: Download models from drive
 [download models here](https://drive.google.com/drive/folders/17am-HyZ2R7SoCi9Rpfu5uK71XAWWI1ff?usp=drive_link)
-🔗 **Model download**
+🔗 **Download both CT Scan and Histopathology Model**
 ```bash
-# place both models in root directory of flask app
+# place both models in root directory of flask app.
 ````
 
 ## 🛠️ Getting Started step 2: install files
