@@ -3,7 +3,14 @@
 [Presentation](https://docs.google.com/presentation/d/1r_a98Et5a3CCOZtHDk0O5rNGh_tOkeDCvzrJvdH8OQA/edit?usp=sharing)
 🔗 **View the project pitch deck**
 
+[Use webapp](gibbon-clever-bream.ngrok-free.app/breathsafe)
+🌐 **View web site**
+
+# 📈 Architectural diagram
+
 ![BreathSafe Architecture Diagram](https://github.com/Jerryblessed/breathsafe/blob/main/static/AI%20Lung%20Cancer%20Diagnosis%20Flowchart.png?raw=true)
+
+# ⭐️ Web screen
 
 ![Breath Safe Landing Page](https://github.com/Jerryblessed/breathsafe/blob/main/static/landingpage.png?raw=true)
 
