@@ -3,7 +3,7 @@
 [Presentation](https://docs.google.com/presentation/d/1r_a98Et5a3CCOZtHDk0O5rNGh_tOkeDCvzrJvdH8OQA/edit?usp=sharing)
 🔗 **View the project pitch deck**
 
-[Use webapp](gibbon-clever-bream.ngrok-free.app/breathsafe)
+[Use webapp](https://gibbon-clever-bream.ngrok-free.app/breathsafe)
 🌐 **View web site**
 
 # 📈 Architectural diagram
