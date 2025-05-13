@@ -35,8 +35,13 @@ def preprocess(path):
     return arr
 
 @app.route('/', methods=['GET'])
+def landing():
+    return render_template('landing.html', CUSTOM_VISION_URL=CUSTOM_VISION_URL)
+
+@app.route('/index', methods=['GET'])
 def index():
-    return render_template('index.html', CUSTOM_VISION_URL=CUSTOM_VISION_URL)
+    return render_template('index.html',  CUSTOM_VISION_URL=CUSTOM_VISION_URL)
+
 
 @app.route('/classify', methods=['POST'])
 def classify():
