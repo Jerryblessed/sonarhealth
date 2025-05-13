@@ -77,26 +77,39 @@ pip install -r requirements.txt﻿
 # Run the app
 python app.py
 ````
-## Make sure your folder look like this 📁 project-root/
+
+```markdown
+## 📁 Project Structure
+
+Make sure your folder looks like this:
+
+```
+
+📁 project-root/
 │
 ├── app.py                          # Flask main application
-├── ctscan_densenet121.keras       # Trained CT scan model
-├── histo_densenet121_model.keras  # Trained histopathology model
+├── ctscan\_densenet121.keras       # Trained CT scan model
+├── histo\_densenet121\_model.keras  # Trained histopathology model
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
 ├── 📁 static/                      # Static files (e.g., images, CSS)
 ├── 📁 templates/                  # HTML templates for Flask
 └── 📁 train/                      # Model training scripts
 
+```
+
 Visit `http://localhost:5000` in your browser to explore.
 
+---
 
-## ✅ Training models for breath safe.
-[models training](https://github.com/Jerryblessed/breathsafe/tree/main/train)
-🧩**To learn how to train one's own model for this project**
+## ✅ Training Models for Breath Safe
 
+[🧠 models training](https://github.com/Jerryblessed/breathsafe/tree/main/train)  
+🧩 **To learn how to train your own model for this project**
 
 ---
 
 © 2025 Breath Safe Initiative
+```
+
 
