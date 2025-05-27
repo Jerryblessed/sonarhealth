@@ -14,7 +14,7 @@
 
 ![Breath Safe Landing Page](https://github.com/Jerryblessed/breathsafe/blob/main/static/landingpage.png?raw=true)
 
-**Breath Safe** is a lightweight Flask application that democratizes AI-powered lung cancer diagnosis using both deep learning and no-code tools. Built for low-resource settings, the platform enables non-technical health workers to upload CT or histopathology images via a simple web UI for instant predictions and guidance.
+**Sonar Health** is a lightweight Flask application that democratizes AI-powered lung cancer diagnosis using both deep learning and no-code tools. Built for low-resource settings, the platform enables non-technical health workers to upload CT or histopathology images via a simple web UI for instant predictions and guidance.
 
 ---
 
