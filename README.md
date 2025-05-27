@@ -8,7 +8,7 @@
 
 # 📈 Architectural diagram
 
-![BreathSafe Architecture Diagram](https://github.com/Jerryblessed/breathsafe/blob/main/static/AI%20Lung%20Cancer%20Diagnosis%20Flowchart.png?raw=true)
+![BreathSafe Architecture Diagram](https://github.com/Jerryblessed/sonarhealth/blob/main/static/AI%20Lung%20Cancer%20Diagnosis%20Flowchart.png?raw=true)
 
 # ⭐️ Web screen
 
