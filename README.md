@@ -1,9 +1,9 @@
-# 🫁 SonarHealth
+# 🫁 PulmoSonar
 
 [Presentation](https://docs.google.com/presentation/d/1r_a98Et5a3CCOZtHDk0O5rNGh_tOkeDCvzrJvdH8OQA/edit?usp=sharing)
 🔗 **View the project pitch deck**
 
-[Use webapp](https://gibbon-clever-bream.ngrok-free.app/breathsafe)
+[Use webapp](https://gibbon-clever-bream.ngrok-free.app/sonarhealth)
 🌐 **View web site**
 
 # 📈 Architectural diagram
@@ -106,7 +106,7 @@ python app.py
 Make sure your folder looks like this:
 
 ```
-📁 breathsafe/
+📁 PulmoSonar/
 │
 ├── app.py                          # Flask main application
 ├── ctscan_densenet121.keras       # Trained CT scan model
@@ -122,7 +122,7 @@ Visit `http://localhost:5000` in your browser to explore.
 
 ---
 
-## ✅ Training Models for Breath Safe
+## ✅ Training Models for PulmoSonar
 
 [🧠 Model Training Guide](https://github.com/Jerryblessed/breathsafe/tree/main/train)
 🧩 **Learn how to train your own model for this project**
