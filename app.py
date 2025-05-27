@@ -1,25 +1,20 @@
-
 from flask import Flask, redirect, render_template, request, render_template_string, jsonify
 from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 import os
-from openai import AzureOpenAI
+from openai import OpenAI
 
-# ─── CONFIG ──────────────────────────────────────────────────────────
-AZURE_OPENAI_BASE    = "https://thisisoajo.openai.azure.com/"
-AZURE_OPENAI_MODEL   = "gpt-4o"
-AZURE_OPENAI_KEY     = "9I4UEJweVUdih04Uv8AXcAxs5H8jSQRfwaugcSQYHcI882wSpFvqJQQJ99BAACL93NaXJ3w3AAABACOGkv4f"
-AZURE_OPENAI_VERSION = "2023-06-01-preview"
-CUSTOM_VISION_URL    = "https://www.customvision.ai/home"
+# ─── CONFIG ───────────────────────────────────────────────────────
+PERPLEXITY_API_KEY = "INSERT_API_KEY_HERE"
+CUSTOM_VISION_URL  = "https://www.customvision.ai/home"
 SYSTEM_PROMPT = "You are a friendly lung health AI assistant."
 
-# Initialize Flask and Azure client
+# Initialize Flask and Perplexity client
 app = Flask(__name__)
-client = AzureOpenAI(
-    api_key=AZURE_OPENAI_KEY,
-    api_version=AZURE_OPENAI_VERSION,
-    base_url=f"{AZURE_OPENAI_BASE}/openai/deployments/{AZURE_OPENAI_MODEL}"
+client = OpenAI(
+    api_key=PERPLEXITY_API_KEY,
+    base_url="https://api.perplexity.ai"
 )
 
 # Load models
@@ -63,7 +58,7 @@ def classify():
 def chat_api():
     msg = request.json.get('message','')
     msgs=[{'role':'system','content':SYSTEM_PROMPT},{'role':'user','content':msg}]
-    resp=client.chat.completions.create(model=AZURE_OPENAI_MODEL,messages=msgs,max_tokens=500,temperature=0.7)
+    resp=client.chat.completions.create(model="sonar-pro", messages=msgs, max_tokens=500, temperature=0.7)
     return jsonify({'reply':resp.choices[0].message.content})
 
 @app.route('/register', methods=['GET', 'POST'])
@@ -79,4 +74,4 @@ def register():
     return render_template('register.html')
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
